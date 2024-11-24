@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+main{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.fazendo{
+    background: #fdfd96;
+}
+.afazer{
+    background: #ff6961;
+}
+.finalizado{
+    background: #77dd77;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+li .divlist{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+li .divbutton{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+   }
+
+li button {
+    background: #333232;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    border-radius: 5px;
+}
+li button:hover{
+    background-color: black;
+}
+
+li .fazendo-btn{
+    background-color: rgb(255, 187, 0);
+}
+li .fazendo-btn:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+li .afazer-btn{
+    background-color: #dc3545;
+
+}
+li .afazer-btn:hover {
+    background: #c82333;
+}
+
+li .finalizado-btn{
+    background-color: rgb(9, 206, 51);
+}
+li .finalizado-btn:hover{
+    background-color: rgb(17, 138, 43);
+}
+
+
+
